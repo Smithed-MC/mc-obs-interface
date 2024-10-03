@@ -19,15 +19,11 @@
 			"net.smithed.obsinterface.Obsinterface"
 		],
 		"client": [
-			"net.smithed.obsinterface.ObsinterfaceClient"
 		]
 	},
 	"mixins": [
-		"obsinterface.mixins.json",
-		{
-			"config": "obsinterface.client.mixins.json",
-			"environment": "client"
-		}
+		"obsinterface.mixins.json"
+
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
